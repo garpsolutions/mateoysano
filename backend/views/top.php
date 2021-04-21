@@ -26,13 +26,13 @@
           <a class="nav-link" href="acerca.php">Acerca</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Servicios</a>
+          <a class="nav-link" href="servicios.php">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="record.php">Record</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Experiencia</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Servicios</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Testimonios</a>

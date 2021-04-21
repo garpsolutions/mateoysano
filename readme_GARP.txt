@@ -1,0 +1,1 @@
+Imagenes de servicios deben de ser de 65 x 65
