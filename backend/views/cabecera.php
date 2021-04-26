@@ -2,11 +2,9 @@
 <div>
     <?php
         include('../scripts/cone.php');
-         $foto_db = $conexion->query("SELECT nombre_foto FROM foto_portada order by id_foto desc  limit 1 ");
-         $foto = $foto_db->fetch_assoc() ;
-         $texto_db = $conexion->query("SELECT texto FROM texto_arriba order by id_texto desc  limit 1 ");
-         $texto = $texto_db->fetch_assoc();
-         $frases_db = $conexion->query("SELECT texto, id_texto FROM textos_abajo order by id_texto desc ");
+         $foto_db = $conexion->query("SELECT nombre_foto, id_foto FROM foto_portada order by id_foto desc  limit 3 ");
+          
+         
     ?>
     <div class="row">
          <!-- Area de  muestra-->
@@ -16,9 +14,16 @@
                 <h4 class="titulo">
                     Información actual en la cabecera
                 </h4> 
+                <?php
+                    while($foto = $foto_db->fetch_assoc()){
+                ?>
                 <div id="imagen_actual">
                     <img src="../img/<?php echo $foto['nombre_foto']; ?>" width="200" height="200" alt="">
+                    <a href="../scripts/eliminar_foto.php?id=<?php echo $foto['id_foto']; ?> "><button class="btn btn-danger">Eliminar</button></a> 
                 </div>
+                <?php
+                    }
+                ?>
             </center>
         
         </div>

@@ -8,3 +8,5 @@
     $conexion->query("INSERT INTO contacto (texto,direccion, telefono, correo) VALUES ('$texto','$direccion','$telefono','$correp')");
     
     header("location:../views/contacto.php");
+
+?>

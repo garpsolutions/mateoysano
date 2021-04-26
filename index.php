@@ -101,8 +101,6 @@
     </div>
    
     <div class="carousel-inner" style="max-height: 650px;">
-    <div style="width: 100%; height:650px; background-color: black; opacity:0.8; position:absolute; z-index:100;">.
-    </div>
     <?php while($foto = $foto_db->fetch_assoc()){
       ?>
         <div class="carousel-item <?php if($foto['attr_active']!= '0'){ ?> active <?php }?> ">
