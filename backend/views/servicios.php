@@ -21,9 +21,12 @@
                             <div class="col-md-4" style="margin-left: 50px;">
                                 <img src="../img/<?php echo $servicios["imagen"];?>" width="200" alt="">
                             </div>
+                            
                             <div class="col-md-6">
                                 <h6><?php echo $servicios["titulo"];?></h6>
                                 <p><?php echo $servicios["descripcion"];?></p>
+                                <button class="btn btn-warning"  data-bs-toggle="modal" data-bs-target="#exampleModal<?php echo $servicios["id_servicios"];?>">Eliminar</button>
+
                                 <button class="btn btn-danger"  data-bs-toggle="modal" data-bs-target="#exampleModal<?php echo $servicios["id_servicios"];?>">Eliminar</button>
                             </div>
                         </div> <br><br>

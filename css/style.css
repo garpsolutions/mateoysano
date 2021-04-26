@@ -39,7 +39,7 @@ a:hover {
 }
 
 .color-a {
-  color: #f6931f;
+  color: gree;
 }
 
 .color-d {
@@ -420,7 +420,7 @@ a:hover {
 
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
-  color: #fff;
+  color: green;
   text-transform: uppercase;
   font-weight: 600;
 }
