@@ -20,26 +20,7 @@
                     <img src="../img/<?php echo $foto['nombre_foto']; ?>" width="200" height="200" alt="">
                 </div>
             </center>
-            <div class="texto_actual">
-                <br>
-                <p> <strong>Texto fijo:</strong> <?php echo $texto['texto']; ?> </p>
-            </div>
-            <div class="texto_actual">
-                <p> <strong>Frases</strong> </p>
-                <?php while($frases = $frases_db->fetch_assoc()){
-                     ?>
-                         <div class="row frases">
-                             <div class="col-md-6">
-                                <?php echo $frases['texto'];?>
-                             </div>
-                             <div class="col-md-6">
-                                <a href="../scripts/delete_frase.php?id=<?php echo $frases['id_texto'];?>"><button class="btn btn-danger">x</button></a>
-                             </div>
-                             
-                         </div>
-                    <?php
-                } ?>
-            </div>
+        
         </div>
         <!-- Area de cargar -->
         <div id="area-subida" class="col-md-6">
@@ -53,12 +34,6 @@
                     <div class="col-md-12">
                         <input class="form-control" id="foto" name="foto" type="file"/>
                         <input id="copia" name="fotos" type="hidden"/>
-                    </div>
-                    <div class="col-md-12 sp">
-                        <textarea name="texto_arriba" class="form-control" id="" placeholder="Texto fijo" cols="30" rows="7"></textarea> 
-                    </div>
-                    <div class="col-md-3 sp">
-                        <input name="frases" class="form-control"  type="text" placeholder="Frase"/>
                     </div>
                     <div class="col-md-12 sp">
                         <input class="btn btn-primary form-control" type="submit" value="Guardar">

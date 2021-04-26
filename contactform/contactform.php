@@ -8,13 +8,13 @@
 /***************** Configuration *****************/
 
   // Replace with your real receiving email address
-  $contact_email_to = "contact@example.com";
+  $contact_email_to = "freddypimpns@gmail.com";
 
   // Title prefixes
-  $subject_title = "Contat Form Message:";
-  $name_title = "Name:";
-  $email_title = "Email:";
-  $message_title = "Message:";
+  $subject_title = "Ejemplo de envio";
+  $name_title = "Name: test";
+  $email_title = "Email: ejemplo@gmail.com";
+  $message_title = "Message: este es el mensaje";
 
   // Error messages
   $contact_error_name = "Name is too short or empty!";
@@ -35,7 +35,7 @@
     $subject = filter_var($_POST["subject"], FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
     $message = filter_var($_POST["message"], FILTER_SANITIZE_STRING);
 
-    if(!$contact_email_to || $contact_email_to == 'contact@example.com') {
+    if(!$contact_email_to || $contact_email_to == 'freddymiguelpereyra@hotmail.com') {
       die('The contact form receiving email address is not configured!');
     }
 

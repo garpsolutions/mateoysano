@@ -13,17 +13,17 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">MENU \\</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="cabecera.php">Cabecera</a>
+          <a class="nav-link " aria-current="page" href="cabecera.php">Cabecera</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="acerca.php">Acerca</a>
+          <a class="nav-link" href="acerca.php">Nosotros</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="servicios.php">Servicios</a>
@@ -32,13 +32,13 @@
           <a class="nav-link" href="record.php">Record</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Experiencia</a>
+          <a class="nav-link" href="portafolio.php">Portafolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Testimonios</a>
+          <a class="nav-link" href="testimonio.php">Testimonios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
+          <a class="nav-link" href="contacto.php">contacto</a>
         </li>
       </ul>
     </div>

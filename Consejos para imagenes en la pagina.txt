@@ -1,0 +1,19 @@
+
+Guia para subir contenido
+
+PORTADA:
+La imagenes a colocar en el area de portada o slideshow deben tener un to
+
+NOSOTROS
+La imagen a colocar en el area de "NOSOTROS" debe ir acorde con el tamaño del
+texto a colocar en el area, segun las lineas que dicho texto.
+
+SERVICIOS:
+La imagen en servicios debe de ser 65x65
+
+PORTAFOLIO:
+Las imagenes en portafolio es preferible establecer unas dimensiones especificas para que logren verse uniformes
+
+TESTIMONIOS:
+Las imagenes en testimonio deben de ser cuadradas independientemente del tamaño.
+

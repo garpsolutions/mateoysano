@@ -1,7 +1,7 @@
 <?php 
     include("top.php");
     include("../scripts/cone.php");
-    $record_db = $conexion->query("SELECT * FROM record WHERE id_record =1 ");
+    $record_db = $conexion->query("SELECT * FROM record limit 1 ");
     $record= $record_db->fetch_assoc();
     if(isset($_GET["id"])){
         include("alerta/success.php");

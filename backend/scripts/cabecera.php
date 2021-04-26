@@ -7,6 +7,7 @@
         $subir= $directorio.basename($_FILES['foto']['name']);
         move_uploaded_file($_FILES['foto']['tmp_name'], $subir);
         $foto = $_FILES["foto"]["name"];
+        $conexion->query("UPDATE foto_portada SET attr_active = 0");
         $conexion->query("INSERT INTO foto_portada (nombre_foto) VALUES ('$foto')");
     }
    echo $texto;
